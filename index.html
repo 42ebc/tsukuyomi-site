@@ -3,23 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tsukuyomi — NY Open Scalping Community</title>
-<meta name="description" content="Tsukuyomi is an elite trading community built on consistency, discipline, and precision execution. NQ, ES futures and SPY, QQQ options.">
+<title>EA Trades — NQ & ES Trading Community</title>
+<meta name="description" content="EA Trades is an elite trading community built on consistency, discipline, and precision execution. NQ, ES futures and SPY, QQQ options.">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;700&family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
 :root{
   --black:#0a0a0a;
   --white:#f5f4f0;
-  --gold:#c9a84c;
-  --gold-light:#e8c97a;
+  --gold:#1f4d3a;
+  --gold-light:#2c6b50;
   --gray:#1c1c1c;
   --gray-mid:#252525;
   --hero-gray:#2b2b2f;
   --gray-text:#777;
   --muted:#bcb6ab;
-  --border:rgba(201,168,76,0.15);
-  --border-strong:rgba(201,168,76,0.32);
+  --border:rgba(31,77,58,0.15);
+  --border-strong:rgba(31,77,58,0.32);
 }
 html{scroll-behavior:smooth;}
 body{background:var(--black);color:var(--white);font-family:'DM Sans',sans-serif;font-weight:300;overflow-x:hidden;}
@@ -56,9 +56,9 @@ nav.scrolled{padding:0.9rem 5rem;}
 .nav-links a{color:var(--gray-text);font-size:0.8rem;letter-spacing:0.12em;text-transform:uppercase;transition:color .2s;}
 .nav-links a:hover{color:var(--gold);}
 .btn-gold{background:var(--gold);color:var(--black);padding:0.65rem 1.6rem;font-size:0.82rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;border:1px solid var(--gold);display:inline-flex;align-items:center;justify-content:center;transition:opacity .2s,transform .2s,box-shadow .2s;}
-.btn-gold:hover{opacity:.9;transform:translateY(-1px);box-shadow:0 8px 24px rgba(201,168,76,0.25);}
+.btn-gold:hover{opacity:.9;transform:translateY(-1px);box-shadow:0 8px 24px rgba(31,77,58,0.25);}
 .btn-outline{
-  border:1px solid rgba(184,149,63,0.36);
+  border:1px solid rgba(31,77,58,0.36);
   color:var(--white);
   padding:0.65rem 1.6rem;
   font-size:0.82rem;
@@ -85,7 +85,7 @@ nav.scrolled{padding:0.9rem 5rem;}
   filter:contrast(1.05) brightness(0.85);
   z-index:0;
 }
-.hero-eyebrow{display:inline-flex;align-items:center;gap:0.6rem;font-size:0.72rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(201,168,76,0.35);padding:0.52rem 1rem;margin-bottom:2rem;width:fit-content;background:rgba(201,168,76,0.04);}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:0.6rem;font-size:0.72rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(31,77,58,0.35);padding:0.52rem 1rem;margin-bottom:2rem;width:fit-content;background:rgba(31,77,58,0.04);}
 .hero-eyebrow::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--gold);animation:pulse 2s infinite;}
 @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.3;}}
 h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(4.5rem,10vw,10rem);line-height:0.9;letter-spacing:0.02em;max-width:900px;margin-bottom:2rem;}
@@ -129,7 +129,7 @@ h1 em{font-style:normal;color:var(--gold);}
   color:var(--gold);
 }
 .ticker-inner .sep{
-  color:rgba(184,149,63,0.5);
+  color:rgba(31,77,58,0.5);
   font-size:0.72rem;
   font-weight:700;
 }
@@ -157,13 +157,13 @@ h2 em{font-style:normal;color:var(--gold);}
 .card-tag{display:block;font-size:0.68rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:0.8rem;opacity:0.8;}
 .card h3{font-family:'Bebas Neue',sans-serif;font-size:1.3rem;letter-spacing:0.05em;margin-bottom:0.8rem;}
 .card p{font-size:0.87rem;color:var(--gray-text);line-height:1.8;}
-.step-num{font-family:'Bebas Neue',sans-serif;font-size:4rem;color:rgba(201,168,76,0.12);line-height:1;margin-bottom:1rem;}
+.step-num{font-family:'Bebas Neue',sans-serif;font-size:4rem;color:rgba(31,77,58,0.12);line-height:1;margin-bottom:1rem;}
 
 /* RULES SECTION */
 .rules-wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem;margin-top:3.5rem;}
 .rule-card{border:1px solid var(--border);padding:2rem 2.5rem;display:flex;align-items:flex-start;gap:1.2rem;transition:border-color .3s;}
 .rule-card:hover{border-color:var(--border-strong);}
-.rule-num{font-family:'Bebas Neue',sans-serif;font-size:2.5rem;color:rgba(201,168,76,0.2);line-height:1;flex-shrink:0;}
+.rule-num{font-family:'Bebas Neue',sans-serif;font-size:2.5rem;color:rgba(31,77,58,0.2);line-height:1;flex-shrink:0;}
 .rule-card h3{font-family:'Bebas Neue',sans-serif;font-size:1.1rem;letter-spacing:0.05em;margin-bottom:0.5rem;}
 .rule-card p{font-size:0.85rem;color:var(--gray-text);line-height:1.75;}
 
@@ -171,7 +171,7 @@ h2 em{font-style:normal;color:var(--gold);}
 .tiers{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem;margin-top:3.5rem;max-width:860px;}
 .tier{border:1px solid var(--border);padding:3rem;transition:border-color .3s;}
 .tier:hover{border-color:var(--border-strong);}
-.tier.featured{border:2px solid var(--gold);background:rgba(201,168,76,0.04);}
+.tier.featured{border:2px solid var(--gold);background:rgba(31,77,58,0.04);}
 .tier-badge{display:inline-block;background:var(--gold);color:var(--black);font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;padding:0.28rem 0.8rem;margin-bottom:1.2rem;font-weight:500;}
 .tier-name{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;letter-spacing:0.05em;margin-bottom:0.5rem;}
 .tier-price{font-family:'Bebas Neue',sans-serif;font-size:4rem;color:var(--gold);line-height:1;margin-bottom:0.3rem;}
@@ -200,7 +200,7 @@ h2 em{font-style:normal;color:var(--gold);}
 .compare-table td{padding:1rem 1.5rem;font-size:0.86rem;color:var(--gray-text);border-bottom:1px solid rgba(255,255,255,0.04);}
 .compare-table td:first-child{color:var(--muted);}
 .compare-table tr:hover td{background:rgba(255,255,255,0.02);}
-.col-cv{background:rgba(201,168,76,0.03);border-left:1px solid var(--border);border-right:1px solid var(--border);}
+.col-cv{background:rgba(31,77,58,0.03);border-left:1px solid var(--border);border-right:1px solid var(--border);}
 .check{color:var(--gold);}
 .cross{color:#333;}
 
@@ -276,13 +276,13 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
 <body>
 
 <nav id="navbar">
-  <div class="logo">Tsuku<span>yomi</span></div>
+  <div class="logo">EA<span> Trades</span></div>
   <div class="nav-links">
     <a href="#about">About</a>
     <a href="#proof">Proof</a>
     <a href="#pricing">Pricing</a>
     <a href="#faq">FAQ</a>
-    <a href="https://whop.com/tsukuyomi-cfbc" target="_blank" class="btn-gold">Join Now</a>
+    <a href="https://whop.com/ea-trades" target="_blank" class="btn-gold">Join Now</a>
   </div>
 </nav>
 
@@ -290,9 +290,9 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
 <section class="hero">
   <div class="hero-eyebrow">NY Open Scalping · NQ · ES · SPY · QQQ</div>
   <h1>Consistency.<br>Discipline.<br><em>Execution.</em></h1>
-  <p class="hero-sub">Tsukuyomi is an elite trading community built around one principle — trade with precision or do not trade at all. No gambling. No FOMO. No excuses.</p>
+  <p class="hero-sub">EA Trades is an elite trading community built around one principle — trade with precision or do not trade at all. No gambling. No FOMO. No excuses.</p>
   <div class="hero-actions">
-    <a href="https://whop.com/tsukuyomi-cfbc" target="_blank" class="btn-gold">Join The Community</a>
+    <a href="https://whop.com/ea-trades" target="_blank" class="btn-gold">Join The Community</a>
     <a href="#pricing" class="btn-outline">View Pricing</a>
     <a href="#proof" class="btn-outline">See Proof</a>
   </div>
@@ -323,7 +323,7 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
 <section class="section section-dark fade-up" id="about">
   <div class="section-kicker">Who We Are</div>
   <h2>Not A Signal Group.<br>A <em>Working System</em>.</h2>
-  <p class="section-intro">Tsukuyomi is built to help traders think independently. Analysis, setups, and trade ideas are shared to improve your understanding of the market — not create reliance on calls.</p>
+  <p class="section-intro">EA Trades is built to help traders think independently. Analysis, setups, and trade ideas are shared to improve your understanding of the market — not create reliance on calls.</p>
   <div class="grid-4">
     <div class="card">
       <span class="card-tag">Foundation</span>
@@ -353,7 +353,7 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
   <div class="section-kicker">Philosophy</div>
   <h2>Built For Growth,<br><em>Not Dependence</em></h2>
   <p class="section-intro">
-    Tsukuyomi is centered around live insights, quality setups, and active market discussion. Members get access to trade ideas, market analysis, and a trading environment designed to improve decision-making in real time.
+    EA Trades is centered around live insights, quality setups, and active market discussion. Members get access to trade ideas, market analysis, and a trading environment designed to improve decision-making in real time.
   </p>
   <p class="section-intro">
     Recaps, breakdowns, and educational content are shared selectively when they add real value — not just to create noise. The goal is to help traders become more disciplined, more confident, and more independent over time.
@@ -389,7 +389,7 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
 <section class="section section-dark fade-up" id="rules">
   <div class="section-kicker">Non-Negotiable</div>
   <h2>The Rules We <em>Live By</em></h2>
-  <p class="section-intro">Tsukuyomi operates on a set of hard rules. These aren't suggestions — they're the foundation of every profitable trader in this community.</p>
+  <p class="section-intro">EA Trades operates on a set of hard rules. These aren't suggestions — they're the foundation of every profitable trader in this community.</p>
   <div class="rules-wrap">
     <div class="rule-card">
       <div class="rule-num">01</div>
@@ -420,9 +420,9 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
       </div>
     </div>
   </div>
-  <div style="margin-top:2.5rem;padding:2rem 2.5rem;border:1px solid var(--border);max-width:820px;background:rgba(201,168,76,0.03);">
+  <div style="margin-top:2.5rem;padding:2rem 2.5rem;border:1px solid var(--border);max-width:820px;background:rgba(31,77,58,0.03);">
     <p style="font-size:0.95rem;color:var(--muted);line-height:1.9;font-style:italic;">"Enter with discipline. Exit with profit. No gambling. No FOMO. No excuses."</p>
-    <p style="font-size:0.75rem;color:var(--gray-text);margin-top:0.8rem;letter-spacing:0.1em;text-transform:uppercase;">— Tsukuyomi Standard</p>
+    <p style="font-size:0.75rem;color:var(--gray-text);margin-top:0.8rem;letter-spacing:0.1em;text-transform:uppercase;">— EA Trades Standard</p>
   </div>
 </section>
 
@@ -495,7 +495,7 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
 <!-- VS COMPARISON -->
 <section class="section section-dark fade-up">
   <div class="section-kicker">The Difference</div>
-  <h2>Tsukuyomi vs.<br><em>Everywhere Else</em></h2>
+  <h2>EA Trades vs.<br><em>Everywhere Else</em></h2>
   <p class="section-intro">Most trading communities sell hype. We sell process. Here's what that actually looks like.</p>
   <div class="compare-wrap">
     <table class="compare-table">
@@ -503,7 +503,7 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
         <tr>
           <th></th>
           <th>Typical Discord</th>
-          <th class="cv col-cv">Tsukuyomi</th>
+          <th class="cv col-cv">EA Trades</th>
         </tr>
       </thead>
       <tbody>
@@ -558,7 +558,7 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
         <li>Market news and analysis</li>
         <li>Wins showcase channel</li>
       </ul>
-      <a href="https://whop.com/tsukuyomi-cfbc" target="_blank" class="btn-outline" style="width:100%;justify-content:center;padding:0.9rem;">Join Free</a>
+      <a href="https://whop.com/ea-trades" target="_blank" class="btn-outline" style="width:100%;justify-content:center;padding:0.9rem;">Join Free</a>
     </div>
     <div class="tier featured">
       <div class="tier-badge">Founding Rate</div>
@@ -574,7 +574,7 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
         <li>Weekly market reviews</li>
         <li>Selective education and strategy breakdowns</li>
       </ul>
-      <a href="https://whop.com/tsukuyomi-cfbc" target="_blank" class="btn-gold" style="width:100%;justify-content:center;padding:0.9rem;">Lock In Founding Rate</a>
+      <a href="https://whop.com/ea-trades" target="_blank" class="btn-gold" style="width:100%;justify-content:center;padding:0.9rem;">Lock In Founding Rate</a>
     </div>
   </div>
   <p style="margin-top:1.5rem;font-size:0.82rem;color:var(--gray-text);border-left:2px solid var(--gold);padding-left:1rem;max-width:600px;">Early members lock in their rate permanently as the community grows. Your rate never increases as long as you stay subscribed.</p>
@@ -607,7 +607,7 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
     </div>
     <div class="faq-item">
       <button class="faq-q"><span>Is this financial advice?</span><span class="faq-toggle">+</span></button>
-      <div class="faq-a">No. Everything shared in Tsukiyomi is for educational and informational purposes only. Trade at your own risk. Past performance does not guarantee future results.</div>
+      <div class="faq-a">No. Everything shared in EA Trades is for educational and informational purposes only. Trade at your own risk. Past performance does not guarantee future results.</div>
     </div>
   </div>
 </section>
@@ -615,8 +615,8 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
 <!-- CTA -->
 <section class="cta-section fade-up">
   <h2>Trade With Purpose.<br><em style="color:rgba(10,10,10,0.6);">Profit With Precision.</em></h2>
-  <p>Join Tsukuyomi — $100/month. Built for traders who value insight, discipline, and execution.</p>
-  <a href="https://whop.com/tsukuyomi-cfbc" target="_blank" class="btn-dark">Join Tsukuyomi Now →</a>
+  <p>Join EA Trades — $100/month. Built for traders who value insight, discipline, and execution.</p>
+  <a href="https://whop.com/ea-trades" target="_blank" class="btn-dark">Join EA Trades Now →</a>
   <p class="cta-note">No long-term commitment. Cancel anytime through Whop.</p>
 </section>
 
@@ -624,7 +624,7 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
 <footer>
   <div class="footer-inner">
     <div class="footer-brand">
-      <div class="logo">Tsuku<span>yomi</span></div>
+      <div class="logo">EA<span> Trades</span></div>
       <p>An elite trading community built on consistency, discipline, and precision execution. NQ · ES · SPY · QQQ.</p>
     </div>
     <div class="footer-col">
@@ -636,15 +636,15 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.06);paddi
     </div>
     <div class="footer-col">
       <h4>Community</h4>
-      <a href="https://whop.com/tsukuyomi-cfbc" target="_blank">Join Discord</a>
-      <a href="https://whop.com/tsukuyomi-cfbc" target="_blank">Whop Page</a>
+      <a href="https://whop.com/ea-trades" target="_blank">Join Discord</a>
+      <a href="https://whop.com/ea-trades" target="_blank">Whop Page</a>
     </div>
   </div>
   <div class="footer-bottom">
-    <p>© 2026 Tsukuyomi Trading. All rights reserved.</p>
+    <p>© 2026 EA Trades. All rights reserved.</p>
   </div>
   <p style="font-size:0.76rem;color:var(--gray-text);margin-bottom:1rem;max-width:720px;line-height:1.8;">Proof, screenshots, and member feedback should be presented as examples of process and execution — not guarantees of future performance.</p>
-  <p class="disclaimer">⚠️ Disclaimer: All content shared by Tsukuyomi is for educational and informational purposes only. Nothing shared constitutes financial advice. Trading futures and options involves substantial risk of loss and is not suitable for all investors. Past performance is not indicative of future results. You are solely responsible for your own trading decisions. Trade at your own risk.</p>
+  <p class="disclaimer">⚠️ Disclaimer: All content shared by EA Trades is for educational and informational purposes only. Nothing shared constitutes financial advice. Trading futures and options involves substantial risk of loss and is not suitable for all investors. Past performance is not indicative of future results. You are solely responsible for your own trading decisions. Trade at your own risk.</p>
 </footer>
 
 <script>
